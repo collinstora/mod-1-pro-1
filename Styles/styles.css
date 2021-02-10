@@ -1,0 +1,139 @@
+html {
+	font-family: 'Work Sans', sans-serif;
+	background-color: lightgray;
+}
+
+#firstrow {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 100px;
+	flex-wrap: nowrap;
+	flex-basis: 200px;
+	background-color: darkcyan;
+	align-items: center;
+	justify-content: space-around;
+	box-shadow:20px 20px 50px 15px grey; 
+}
+
+.logo {
+	position: relative;
+	top: -25px;
+	font-family: 'Fascinate Inline', cursive;
+
+}
+
+.nav {
+	display: flex;
+	width: 40%;
+	justify-content: flex-end;
+	list-style: none;
+	justify-content: space-between;
+	margin-right: -5%;
+	font-family: 'Fascinate Inline', cursive;
+
+}
+
+#main {
+	border-style: outset;
+	border-color: white;
+	padding: 20px;
+	margin: 10px 30px 0px 80px;
+}
+
+.secondrow {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	justify-content: space-around;
+	text-align: center;
+	line-height: 60px;
+	font-size: 15px;
+	font-family: 'Fascinate Inline', cursive;
+	margin-bottom: 50px;
+}
+
+.main-img {
+	width: 60%;
+	position: relative;
+	top: 0px;
+	z-index: -1;	
+}
+
+#thirdrow {
+	display: flex;
+	flex-direction: row;
+	padding: 40px;
+	border-style: outset;
+	border-color: white;
+	background-color: lightgrey;
+	box-shadow:0px 0px 50px 15px grey;
+	height: 150px;
+	margin-top: -70px
+}
+
+h2 {
+	font-family: 'Fascinate Inline', cursive;
+}
+
+.title {
+	width: 100%;
+	margin: -50px 30px 0px 45px;
+	line-height: 1.6;
+}
+
+.testimonials {
+	width: 40%;
+	margin: -50px 30px 0px 80px;
+	line-height: 1.6;
+}
+
+.quote { 
+	text-indent: 50%;
+ }
+
+/* footer */
+
+#lastrow {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	justify-content: space-around;
+	padding: 10px 10px 10px 100px;
+	background-color: silver;
+}
+ 
+ 
+.team {
+	
+	flex-direction: column;
+}
+
+.img-team {
+	width: 150px;
+	height: 100px;
+	border-style: outset;
+	border-color: white;
+}
+
+.servies {
+	flex-direction: column;
+}
+
+.references {
+	flex-direction: column;
+}
+
+.press {
+	flex-direction: column;
+}
+
+button {
+	background-color: gray;
+	color: white;
+}
+button:hover {
+	background: white;
+	color: gray;
+
+}
